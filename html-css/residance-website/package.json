@@ -1,0 +1,14 @@
+{
+  "name": "Yaska Case",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass assets/scss/main.scss assets/css/main.css -w"
+  },
+  "author": "Ebubekir",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^8.0.0"
+  }
+}
