@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Typescript Hesap Makinesi</title>
+    <link rel="stylesheet" href="main.css" />
+</head>
+<body>
+    <div class="container">
+    <h1>Typescript Hesap Makinesi</h1>
+    <div class="result">
+        <input type="text" id="result" readonly />
+    </div>
+    <div class="row">
+        <button class="button" onclick="onNumberClick('7')">7</button>
+        <button class="button" onclick="onNumberClick('8')">8</button>
+        <button class="button" onclick="onNumberClick('9')">9</button>
+        <button class="button" onclick="onOperatorClick('/')">/</button>
+    </div>
+    <div class="row">
+        <button class="button" onclick="onNumberClick('4')">4</button>
+        <button class="button" onclick="onNumberClick('5')">5</button>
+        <button class="button" onclick="onNumberClick('6')">6</button>
+        <div class="row">
+        <button class="button" onclick="onNumberClick('1')">1</button>
+        <button class="button" onclick="onNumberClick('2')">2</button>
+        <button class="button" onclick="onNumberClick('3')">3</button>
+        <button class="button" onclick="onOperatorClick('-')">-</button>
+    </div>
+    <div class="row">
+        <button class="button" onclick="onNumberClick('0')">0</button>
+        <button class="button" onclick="onNumberClick('.')">.</button>
+        <button class="button" onclick="onClearClick()">C</button>
+        <button class="button" onclick="onOperatorClick('+')">+</button>
+    </div>
+    <div class="row">
+        <button class="button" onclick="onCalculateClick()">=</button>
+    </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
