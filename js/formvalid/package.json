@@ -1,0 +1,14 @@
+{
+  "name": "formvalid",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:scss": "node-sass assets/scss/main.scss assets/css/main.css -w"
+  },
+  "author": "Ebubekir Yigen",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^8.0.0"
+  }
+}
