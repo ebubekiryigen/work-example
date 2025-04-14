@@ -1,0 +1,139 @@
+#success_message {
+
+    display: none;
+
+}
+
+
+
+input,
+
+input:hover,
+
+input:focus,
+
+input:focus-visible {
+
+    border: 1px solid #d8d8d8;
+
+    padding: 4px 0px;
+
+}
+
+
+
+.date {
+
+    border: 1px solid #d8d8d8;
+
+    padding: 4px 4px;
+
+}
+
+
+
+.date:hover,
+
+.date:focus,
+
+.date:focus-visible {
+
+    padding: 4px 4px;
+
+}
+
+
+
+.form-control {
+
+    display: inline-block;
+
+}
+
+
+
+.title {
+
+    margin: 0px;
+
+    padding: 10px;
+
+    font-size: 20px;
+
+    color: #fff;
+
+}
+
+
+
+.header-bg {
+
+    background-color: #0f2f51;
+
+}
+
+
+
+.contact_form {
+
+    padding-left: 30px;
+
+}
+
+
+
+.button-arus {
+
+    min-width: 240px;
+
+    background-color: #0f2f51;
+
+    padding: 10px 20px;
+
+    color: #fff;
+
+    margin-left: 10px;
+
+}
+
+
+
+.button-arus:hover,
+
+.button-arus:focus,
+
+.button-arus:focus-visible {
+
+    background-color: #1f558f;
+
+    padding: 10px 20px;
+
+    color: #fff;
+
+    margin-left: 10px;
+
+}
+
+.header-bulk-info *{
+	font-size: 14px;
+	color: #ccc;
+	letter-spacing: 0.6px;
+}
+
+.header-bulk-info img{
+	width:10px;
+	margin-top: -4px;
+	filter: invert(100%);
+}
+
+.header-bulk-info a{
+	color: #ccc;
+}
+
+.fa-phone-alt{
+	transform: rotate(90deg);
+}
+
+table{
+	background-color: #0e2f52;
+}
